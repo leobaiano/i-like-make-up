@@ -1,0 +1,276 @@
+body {
+	position:relative;
+}
+
+#produtos-promocao {
+	margin:0 auto 40px auto;
+	padding-top: 30px;
+}
+
+#produtos-promocao .owl-prev,
+#produtos-promocao .owl-next {
+	color:#dd215d !important;
+}
+
+.footer-brand a img,
+.rd-navbar-mobile-brand a img,
+.page-loader div img {
+	width:100%;
+	height:auto;
+}
+
+.produtos {
+
+}
+.produtos .produto {
+	width:100%;
+}
+
+.produtos .produto .imagem {
+	margin:0 0 20px 0;
+	padding:0;
+	display:block;
+}
+.produtos .produto .imagem img {
+	width:100%;
+	height:auto;
+}
+.produtos .produto .conteudo {
+	text-align:center;
+	font-size:22px;
+}
+.produtos .produto .conteudo p {
+	font-weight: 300;
+	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+	color: #dd215d;
+}
+
+
+.sombra,
+.sombra-2 {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999999;
+}
+.sombra-2 {
+	display:none;
+}
+.banner-rodape {
+	height:400px;
+	width:100%;
+}
+.banner-rodape img {
+	width:100%;
+	height:auto;
+}
+.pupup-newsletter {
+	width: 60%;
+	background-color: #FFFFFF;
+	padding: 20px 40px;
+	position: fixed;
+	left: 50%;
+	top: 80px;
+	margin-left: -30%;
+	z-index: 9999999;
+	text-align:center;
+}
+.pupup-newsletter h2 {
+	color: #E31E5C;
+	font-size: 40px;
+	margin:10px;
+}
+.close-newsletter,
+.close-newsletter-2 {
+	background-color: #e31e5c;
+	padding: 6px 13px;
+	border-radius: 50%;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: absolute;
+	right: -20px;
+	top: -20px;
+}
+.close-newsletter:hover,
+.close-newsletter-2 {
+	color:#FFFFFF;
+}
+.close-newsletter-2 {
+	right:20px;
+	top:20px;
+}
+.rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav > li.active > a, .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav > li.focus > a, .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav > li > a:hover {
+	color:#e31e5c !important;
+}
+.content-post {
+	text-align: left;
+}
+.mapa-rodape {
+	width:100%;
+}
+.mapa-rodape iframe {
+	width:100%;
+}
+.imagem_do_produto img {
+	width:100%;
+	height:100%;
+}
+
+.banner-revendedor {
+	width:100%;
+}
+.banner-revendedor img {
+	width:100%;
+	height:auto;
+}
+
+.social-topo:hover {
+	color:#630088 !important;
+}
+.social-topo:hover {
+	/*color:#FFFFFF;*/
+}
+/*.social-rodape {
+	background-color:#dd215d;
+}*/
+a.icon-rect.fa-facebook:hover,
+a.icon-circle.fa-facebook:hover,
+a.icon-outlined.fa-facebook:hover,
+a.icon-rounded.fa-facebook:hover,
+a.icon-rounded.fa-facebook:hover,
+a.icon-rect.fa-google-plus:hover,
+a.icon-circle.fa-google-plus:hover,
+a.icon-outlined.fa-google-plus:hover,
+a.icon-rounded.fa-google-plus:hover,
+a.icon-rounded.fa-google-plus:hover,
+a.icon-rect.fa-instagram:hover,
+a.icon-circle.fa-instagram:hover,
+a.icon-outlined.fa-instagram:hover,
+a.icon-rounded.fa-instagram:hover,
+a.icon-rounded.fa-instagram:hover,
+a.icon-rect.fa-whatsapp:hover,
+a.icon-circle.fa-whatsapp:hover,
+a.icon-outlined.fa-whatsapp:hover,
+a.icon-rounded.fa-whatsapp:hover,
+a.icon-rounded.fa-whatsapp:hover {
+	background:#dd215d;
+}
+
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.open > .btn-danger.dropdown-toggle,
+.btn-anis-effect.btn-danger:hover {
+	color: #FFFFFF;
+	background-color: #630088;
+	border-color: #630088;
+}
+
+.breadcrumb-modern a {
+	color:#FFFFFF;
+}
+.breadcrumb-modern a:hover {
+	color:#e31e5c;
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto;}
+
+.page blockquote.quote .text-primary,
+.page .text-primary {
+color:#FFFFFF;
+}
+
+.label-neon-carrot {
+	background-color:#dd215d;
+}
+.ui-to-top:hover {
+	background:#dd215d;
+}
+
+.box-imagem {
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba( 0,0,0,0.7);
+	z-index: 9999999;
+	display:none;
+	text-align:center;
+}
+.box-imagem img {
+	width: auto;
+	height: 100%;
+	text-align:center;
+}
+
+.mobile .swiper-button,
+.tablet .swiper-button,
+.veil-owl-nav .owl-nav {
+	display:block !important;
+}
+
+.box-marcas {
+	margin-bottom:30px;
+}
+
+
+.swiper-pagination-bullet-active,
+.owl-carousel-default .owl-dot.active {
+	background:#dd215d;
+}
+
+.imagem-conteudo {
+	width:100%;
+	margin-bottom:50px;
+}
+.imagem-conteudo img {
+	width:100%;
+	height:auto;
+}
+
+.rd-navbar-brand a img {
+	width:100%;
+	height:auto;
+	max-height: 55px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+	.desc-slide {
+		display:block !important;
+	}
+	.pupup-newsletter {
+		width: 90%;
+		margin-left: -45%;
+		padding: 10px;
+		top: 50px;
+	}
+	.pupup-newsletter h2 {
+		font-size:22px;
+	}
+	.close-newsletter {
+		right: -15px;
+	}
+	.box-imagem img {
+		width: 100%;
+		height: auto;
+	}
+
+	.content-post {
+		padding:0 20px;
+	}
+	.imagem-conteudo {
+		width:100%;
+		margin-bottom:10px;
+	}
+
+	.sect-quem-somos {
+		padding: 10px 0;
+	}
+}
