@@ -40,11 +40,13 @@ get_header();
             	<div class="cell-md-8 inset-md-right-30">
               		<!-- Blog Classic-->
               		<section>
-                		<?php
+						<?php
+							$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
                 			$args = array(
                 						'post_type'			=> 'post',
-                						'posts_per_page'	=> 10
-                					);
+										'posts_per_page'	=> 10,
+										'paged'				=> $paged
+									);
                 			$blog = new WP_Query( $args );
                 			if ( $blog->have_posts() ) {
                 				while ( $blog->have_posts() ) {
@@ -98,9 +100,11 @@ get_header();
 								);
 						?>
 						<div class="offset-top-66">
-							<nav>
-								<?php echo sa_get_bootstrap_paginate_links( $blog ); ?>
-							</nav>
+							<?php
+								echo '<div class="box_paginacao">';
+									echo paginate_links( $args );
+								echo '</div>';
+							?>
 						</div>
 						<?php
                 				wp_reset_postdata();

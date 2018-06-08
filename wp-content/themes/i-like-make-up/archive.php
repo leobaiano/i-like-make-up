@@ -78,7 +78,7 @@ if ( is_category() ) {
 							        'base'       => str_replace( 999999999, '%#%', get_pagenum_link( 999999999 ) ),
 							        'format'     => '?paged=%#%',
 							        'current'    => max( 1, get_query_var( 'paged' ) ),
-							        'total'      => $blog->max_num_pages,
+							        'total'      => $wp_query->max_num_pages,
 							        'prev_next'  => false,
 							        'end_size'   => 1,
 							        'mid_size'   => 4,
@@ -86,9 +86,11 @@ if ( is_category() ) {
 								);
 						?>
 						<div class="offset-top-66">
-							<nav>
-								<?php echo sa_get_bootstrap_paginate_links( $blog ); ?>
-							</nav>
+							<?php
+								echo '<div class="box_paginacao">';
+									echo paginate_links( $args );
+								echo '</div>';
+							?>
 						</div>
 						<?php
                 				wp_reset_postdata();
